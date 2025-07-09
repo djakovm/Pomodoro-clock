@@ -1,1 +1,4 @@
-<p>timer-controls works!</p>
+<div class="timer-controls">
+  <button (click)="toggle()">{{ isRunning() ? 'Pause' : 'Start' }}</button>
+  <button (click)="reset()">Reset</button>
+</div>

@@ -1,1 +1,15 @@
-<p>timer-settings works!</p>
+<div class="timer-settings">
+  <div>
+    <p>Session Length</p>
+    <button (click)="decreaseSession()" [disabled]="isRunning()">-</button>
+    <span>{{ sessionMinutes() }}</span>
+    <button (click)="increaseSession()" [disabled]="isRunning()">+</button>
+  </div>
+
+  <div>
+    <p>Break Length</p>
+    <button (click)="decreaseBreak()" [disabled]="isRunning()">-</button>
+    <span>{{ breakMinutes() }}</span>
+    <button (click)="increaseBreak()" [disabled]="isRunning()">+</button>
+  </div>
+</div>

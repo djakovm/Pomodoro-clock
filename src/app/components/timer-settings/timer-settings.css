@@ -1,0 +1,33 @@
+.timer-settings {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 16px 20px;
+  min-width: 220px;
+}
+
+.timer-settings div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.timer-settings button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.timer-settings button:disabled {
+  background: #b0b0b0;
+}
+
+.timer-settings span {
+  font-size: 1.1rem;
+  margin: 0;
+}
