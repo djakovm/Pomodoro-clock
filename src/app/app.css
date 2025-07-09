@@ -1,0 +1,10 @@
+body,
+app-timer-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7fa;
+  margin: 0;
+}
